@@ -1,0 +1,26 @@
+2023-11-20T03:13:24+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_655aced40f7a9httpscylab-demo-vainternaldevelidwp-admin","smb_name":"PROD","redirect_url":"https:\/\/cylab-demo-va.internal.devel.id\/wp-admin\/"}
+ ajax: no
+2023-11-20T03:13:24+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: TLB
+Content-Type: application/json
+X-Tt-Logid: 202311200313237B5BD23931342533C67B,202311200313237B5BD23931342533C67B
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=121
+x-tt-trace-host: 013dfaf7493820227d833f9b2da39a41c44a965d37eb4cce221ff795a78c4e3652d2ba15ddbad31086cbbc611beb2761f45949bf19e8a7b639012ec79ffe9e68d28d2acacdc96e83238b3e6c13501283742ed8b34a90574ed3b94b3bc1599ae137
+Content-Encoding: gzip
+Date: Mon, 20 Nov 2023 03:13:24 GMT
+Content-Length: 215
+X-Cache: TCP_MISS from a23-48-173-12.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2.1-52518411) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=6, origin; dur=146
+X-Origin-Response-Time: 147,23.48.173.12
+X-Akamai-Request-ID: 314e29f
+
+{"code":0,"msg":"ok","data":{"external_data_key":"57a00c22-b43d-4bc8-a49d-08240183aa3c","app_id":"7303377156833280002","redirect_uri":"https:\/\/cylab-demo-va.internal.devel.id\/wp-admin\/","app_secret":"1550830e9e456d2aa77edd6cb4188fa9d797ff67"}}
+
